@@ -1,0 +1,107 @@
+// Typography
+// ====================
+
+// Variables
+// --------------------
+@import './variables';
+
+// Base
+// --------------------
+html {
+    font-size: 100%;
+}
+
+body {
+    color: $black;
+}
+
+html,
+body,
+input,
+textarea,
+button {
+    font-family: $font-text;
+}
+
+// Headings
+// --------------------
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 0.06rem;
+}
+
+h1 {
+    font-size: $font-size-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+}
+
+h4 {
+    font-size: $font-size-std;
+}
+
+// Text
+// --------------------
+p {
+    font-size: $font-size-sm;
+    font-weight: 300;
+    margin: 20px 0;
+    line-height: 1.6em;
+}
+
+a {
+    font-weight: 400;
+    color: $black;
+    border-bottom: 1px solid $black;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: color 300ms ease, border 300ms ease;
+
+    &:hover {
+        color: darken($gold, 5%);
+        border-bottom-color: transparent;
+    }
+
+}
+
+li {
+    font-size: $font-size-std;
+}
+
+// Special
+// --------------------
+hr {
+    margin: $font-size-lg 0;
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: rgba($gray-light, .5);
+}
+
+// Fixes
+// --------------------
+button,
+input[type='submit'],
+a {
+    &:active,
+    &:focus {
+        outline: 0;
+    }
+}
+
+// Responsive
+// --------------------
+@media (max-width: 768px) {
+
+    html {
+        font-size: 75%;
+    }
+
+}

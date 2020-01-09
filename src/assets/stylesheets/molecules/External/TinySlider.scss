@@ -1,0 +1,43 @@
+// External: Tiny Slider
+// =====================
+
+// External
+// --------------------
+@import './node_modules/tiny-slider/src/tiny-slider.scss';
+
+// Base
+// --------------------
+:global
+.tns-nav {
+    margin: 30px 0 0;
+
+    > button {
+        width: 10px;
+        height: 10px;
+        margin: 0 3px;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba($black, .1);
+        display: inline-block;
+        transition: background-color 300ms ease;
+    }
+
+    &-active {
+        background-color: $gold !important;
+    }
+
+}
+
+:global
+.treatments {
+
+    .tns-nav {
+    
+        > button {
+            background-color: rgba($white, .15);
+        }
+    
+    }
+
+}

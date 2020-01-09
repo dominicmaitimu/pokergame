@@ -1,0 +1,24 @@
+{
+    "chips": [
+        {
+            "amount": 1,
+            "image": "1.svg'"
+        },
+        {
+            "amount": 5,
+            "image": "5.svg'"
+        },
+        {
+            "amount": 25,
+            "image": "25.svg'"
+        },
+        {
+            "amount": 50,
+            "image": "50.svg'"
+        },
+        {
+            "amount": 100,
+            "image": "100.svg'"
+        }
+    ]
+}

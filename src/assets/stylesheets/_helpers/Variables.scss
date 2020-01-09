@@ -1,0 +1,91 @@
+// Variables
+// ====================
+
+// Colors
+// --------------------
+
+// Primary
+$black:                 black;
+$white:                 white;
+
+$gold:                  #D2BF87;
+$gold-dark:             #A99A77;
+
+$brown:                 #2F1206;
+$brown-light:           #614126;
+$brown-lighter:         lighten($brown, 80%);
+$brown-dark:            darken($brown, 6%);
+
+$blue-lighter:          #EDF8FE;
+$blue-light:            #B6E5F8;
+$blue:                  #109FC7;
+$blue-dark:             #007793;
+$blue-darker:           #001C35;
+
+$gray-lighter:          #F3F2F1;
+$gray-light:            #DDD;
+$gray:                  #6B6B6B;
+
+// Secondary
+$green-light:           #C8CD2E;
+$green:                 #467100;
+$green-dark:            #5B9853;
+
+$red-light:             #E95742;
+$red:                   #FF0000;
+$red-dark:              #B12814;
+
+// Alerts
+$alert-success:         $green-dark;
+$alert-error:           $red-light;
+$alert:                 #FFB954;
+
+// Screensizes
+// --------------------
+$screen-xxs:            480px;
+
+$screen-xs-min:         $screen-xxs + 1;
+$screen-xs:             640px;
+
+$screen-sm-min:         $screen-xs + 1;
+$screen-sm:             768px;
+
+$screen-md-min:         $screen-sm + 1;
+$screen-md:             991px;
+
+$screen-lg-min:         $screen-md + 1;
+$screen-lg:             1440px;
+
+$screen-xlg-min:        $screen-lg + 1;
+$screen-xlg:            1680px;
+
+// Form-elements
+// --------------------
+$form-elm-small:        40px;
+$form-elm-medium:       50px;
+$form-elm-large:        60px;
+
+// Fonts
+// --------------------
+$font-heading:          'Roboto Slab', serif;
+$font-text:             'Roboto', sans-serif;
+$font-alternative:      'Roboto Condensed', sans-serif;
+$font-icons:            'Icons';
+
+// Font-size
+// --------------------
+$font-size-h1:          2.75rem;
+$font-size-h2:          1.5rem;
+$font-size-h3:          1.25rem;
+$font-size-std:         1rem;
+$font-size-button:      1.4rem;
+
+$font-size-heading-alt: 2.25rem;
+$font-size-alt:         1.65rem;
+
+$font-size-lg:          2rem;
+$font-size-md:          1.75rem;
+$font-size-sm:          1.15rem;
+$font-size-xs:          0.875rem;
+$font-size-xxs:         0.75rem;
+$font-size-xxxs:        0.55rem;

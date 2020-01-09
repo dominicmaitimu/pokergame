@@ -1,0 +1,18 @@
+// Layout: Header
+// ====================
+
+// Typography
+// --------------------
+@import '../_helpers/Variables';
+
+// Base
+// --------------------
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 30px;
+    text-align: right;
+    box-sizing: border-box;
+
+}

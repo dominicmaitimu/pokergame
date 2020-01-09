@@ -1,0 +1,22 @@
+// Chips: Default
+// ====================
+
+// Imports
+// --------------------
+@import '../../_helpers/Variables';
+
+// Base
+// --------------------
+.chip {
+    width: percentage(1/10);
+    max-width: 145px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 300ms ease;
+
+    &__selected {
+        transition: all 1000ms ease;
+    }
+
+}

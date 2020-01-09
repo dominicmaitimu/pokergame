@@ -1,0 +1,120 @@
+// Grid
+// ====================
+
+// Base
+// --------------------
+$gridSize:          12;
+$gridPercentage:    (1 / $gridSize);
+
+@for $i from 1 through $gridSize {
+    .col-#{$i} {
+        width: percentage($gridPercentage * $i);
+    }
+    .col-offset-#{$i} {
+        margin-left: percentage($gridPercentage * $i);
+    }
+    @media (max-width: $screen-xxs) {
+        .col-xxs-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-xxs-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-xs-min) and (max-width: $screen-xs) {
+        .col-xs-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-xs-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (max-width: $screen-xs) {
+        .col-xs-max-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-xs-max-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm) {
+        .col-sm-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-sm-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-sm-min) {
+        .col-sm-min-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-sm-min-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (max-width: $screen-sm) {
+        .col-sm-max-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-sm-max-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-md-min) and (max-width: $screen-md) {
+        .col-md-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-md-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-md-min) {
+        .col-md-min-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-md-min-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (max-width: $screen-md) {
+        .col-md-max-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-md-max-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg) {
+        .col-lg-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-lg-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-lg-min) {
+        .col-lg-min-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-lg-minoffset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (max-width: $screen-lg) {
+        .col-lg-max-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-lg-max-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+    @media (min-width: $screen-xlg-min) {
+        .col-xlg-#{$i} {
+            width: percentage($gridPercentage * $i);
+        }
+        .col-xlg-offset-#{$i} {
+            margin-left: percentage($gridPercentage * $i);
+        }
+    }
+}

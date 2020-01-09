@@ -1,0 +1,44 @@
+// Icons
+// ====================
+
+// Base
+// --------------------
+$path:  '~assets/icons/';
+
+// Icons
+// --------------------
+@font-face {
+    font-family: 'Icons';
+    src: url('#{ $path }pokergame.eot');
+    src: url('#{ $path }pokergame.eot?#iefix') format('embedded-opentype'),
+         url('#{ $path }pokergame.woff') format('woff'),
+         url('#{ $path }pokergame.ttf') format('truetype'),
+         url('#{ $path }pokergame.svg#pokergame') format('svg');
+}
+
+// Rendering
+// --------------------
+.icon {
+    font-family: 'Icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Icons
+// --------------------
+.icon {
+    &--chip:before {
+        content: '\e900';
+    }
+    &--wallet:before {
+        content: '\e901';
+    }
+}
